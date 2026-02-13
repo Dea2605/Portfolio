@@ -1,0 +1,502 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+
+
+    .banner-topo {
+
+            
+            /* mantém no topo mesmo rolando */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 500%;
+            background-image: url("imagens/banner.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            padding-top: 0px;
+            margin-top: 0%;
+
+    
+
+
+
+    }
+
+    #video1 {
+
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        /* 4 colunas */
+        gap: 20px;
+        justify-content: center;
+        /* centraliza o conjunto */
+    }
+
+    .videos {
+        display: flex;
+        /* coloca os vídeos lado a lado */
+        justify-content: center;
+        /* centraliza horizontalmente */
+        align-items: flex-start;
+        /* alinha no topo da linha */
+        gap: 20px;
+        /* espaço entre os vídeos */
+        margin-top: 20px;
+        /* espaço abaixo do banner */
+    }
+
+    .videos video {
+        width: 100px;
+        /* largura reduzida */
+        height: 10px;
+        /* altura reduzida */
+    }
+
+
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        /* centraliza horizontalmente */
+        margin-top: 0;
+        /* cola no topo */
+        padding-top: 10px;
+        /* opcional: espaço interno */
+    }
+
+
+
+    .banner img {
+        max-width: 100%;
+        /* garante que não ultrapasse a tela */
+        height: auto;
+        /* mantém proporção */
+    }
+
+
+
+    body {
+        margin: 0;
+        /* remove margens padrão do navegador */
+        padding: 0;
+    }
+
+
+
+    .videos video {
+        max-width: 1000px;
+        height: 100px;
+    }
+
+
+
+    .videos {
+        flex: center;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        /* 4 colunas */
+        gap: 20px;
+        justify-content: center;
+        margin: 20px;
+
+        /* centraliza o conjunto */
+    }
+
+
+
+    #video1 {
+        display: 100%;
+        border: 2px solid red;
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+    #video2 {
+        display: 100%;
+        border: 2px solid blue;
+    }
+
+    #video3 {
+        display: 100%;
+        border: 2px solid green;
+    }
+
+    #video4 {
+        display: flex;
+
+
+
+
+    }
+
+    .videos video {
+        width: 100%;
+        /* largura reduzida */
+        height: 120px;
+        /* altura reduzida */
+    }
+
+    .videos {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        /* 4 colunas */
+        gap: 20px;
+        justify-content: center;
+        /* centraliza o conjunto */
+    }
+
+
+    .video-container {
+        display: flex;
+        /* coloca os vídeos lado a lado */
+        gap: 10px;
+        /* espaço entre eles */
+        justify-content: center;
+        /* centraliza na página */
+    }
+
+    .video-esquerda .controls {
+        width: 50%;
+        /* controla o tamanho (diminui) */
+        height: 70px;
+        /* altura fixa, pode ajustar */
+    }
+
+
+    .videos video {
+        width: 30px;
+        height: 120px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    body {
+
+        background-color: #18020e;
+        /* só para testar se o CSS está funcionando */
+        font-family: Arial, sans-serif;
+        text-align: center;
+
+    }
+
+
+
+
+    body {
+        min-height: 1200%;
+        /* ocupa 100% da altura da tela */
+    }
+
+
+
+    body {
+        max-width: 1200%;
+        /* define a largura máxima */
+        overflow-x: hidden;
+        margin: 20% auto;
+        /* centraliza na tela */
+        padding: 0;
+        overflow: 100%;
+
+
+    }
+
+    .pagina {
+        width: 70%;
+        /* ajuste conforme desejar */
+        margin: 0;
+        /* centraliza */
+        background: #070000;
+        /* opcional: cor de fundo */
+    }
+
+    .container {
+        height: 50%;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: -300px;
+        background-color: #130101;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 0;
+        transition: left 0.3s ease;
+        box-shadow: 2px 0 5px rgba(red, green, blue, alpha);
+        background-image: center;
+        margin: 0;
+        justify-content: center;
+        align-items: flex-start;
+        display: flex;
+        max-width: 1200px;
+
+
+
+    }
+
+    .video-box {
+        display: flex;
+        /* coloca os vídeos lado a lado */
+        gap: 10px;
+        /* espaço entre eles */
+        justify-content: center;
+        /* centraliza na página */
+    }
+
+    .video-container {
+        width: 100%;
+        /* controla o tamanho (diminui) */
+        height: 50px;
+        /* altura fixa, pode ajustar */
+    }
+
+
+    .video-box {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        gap: 20px
+            /* centraliza na página */
+    }
+
+    .video-esquerda {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 30px;
+        gap: 20px;
+        margin: 0;
+
+
+
+    }
+
+    .video-esquerda {
+        flex: 1 1 300px;
+        max-width: 150px;
+        height: 70%;
+        gap: 20;
+        width: 30%;
+        height: 30px;
+
+
+
+
+    }
+
+    .video-center {
+        float: left;
+        /* mantém o vídeo à esquerda */
+        max-width: 40%;
+        /* limita a largura */
+        height: 20px;
+        /* ajusta a altura proporcionalmente */
+        margin-right: 20px;
+        /* espaço entre o vídeo e o conteúdo ao lado */
+        overflow: hidden;
+        /* evita que ultrapasse o container */
+    }
+
+    .video-center {
+        float: left;
+        /* mantém o vídeo à esquerda */
+        max-width: 300px;
+        /* limite de largura */
+        aspect-ratio: 4 / 5;
+        /* mantém proporção padrão */
+    }
+
+    .video-center {
+        width: 100%;
+        /* ocupa toda a largura do container */
+        height: 1000px;
+        /* ajusta proporcionalmente */
+        object-fit: contain;
+        /* garante que não corte a imagem */
+    }
+
+
+
+
+
+    .video-center {
+
+        display: inline-block;
+        justify-content: flex-start;
+        width: 100%;
+
+
+
+
+    }
+
+
+    .video-center {
+        float: left;
+        /* mantém o vídeo à esquerda */
+        margin-top: 0;
+        /* cola o vídeo logo abaixo do banner */
+    }
+
+
+    .area-videos {
+        display: flex;
+        /* coloca os vídeos em linha */
+        justify-content: center;
+        /* centraliza o conjunto */
+        gap: 40px;
+        /* espaço entre os vídeos */
+        margin-top: 10px;
+        /* espaço abaixo do banner */
+    }
+
+
+    .video-centro {
+        flex: 0 0 auto;
+        /* mantém o tamanho fixo */
+    }
+
+
+    .video-centro {
+        flex: 0 0 auto;
+        gap: 20px;
+        /* mantém o tamanho fixo */
+    }
+
+    body {
+        max-width: 100%;
+        /* nunca ultrapassa a tela */
+        overflow-x: hidden;
+        /* evita barra de rolagem lateral */
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+    .videos {
+        display: flex;
+        justify-content: center;
+        /* centraliza os dois vídeos */
+        gap: 20px;
+        /* espaço entre eles */
+        flex-wrap: wrap;
+        /* quebra para baixo se não couber */
+        width: 100%;
+        overflow: visible;
+
+    }
+
+    .videos iframe {
+        max-width: 100%;
+        /* nunca ultrapassa a tela */
+        height: auto;
+        /* mantém proporção */
+        display: block;
+    }
+
+    .videos iframe {
+        flex: 1 1 45%;
+        /* cada vídeo ocupa ~45% da largura */
+        height: auto;
+    }
+
+    .videos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* dois vídeos lado a lado */
+        gap: 20px;
+    }
+
+
+    .videos {
+        display: flex;
+        /* coloca os vídeos em linha */
+        justify-content: center;
+        /* centraliza os vídeos no container */
+        gap: 20px;
+        /* espaço entre eles */
+        margin-top: 10px;
+        /* espaço abaixo do banner */
+    }
+
+    .video iframe {
+        width: 100px;
+        /* tamanho fixo ou responsivo */
+        height: auto;
+    }
+
+
+    .banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+
+    }
+
+    .video-container {
+        text-align: center;
+        /* Centraliza os vídeos */
+    }
+
+    .gif-container {
+        text-align: center;
+        /* Centraliza o GIF */
+        margin-top: 20px;
+        /* Espaço entre os vídeos e o GIF */
+    }
+
+
+
+    .gif-container img {
+        width: 100%;
+        /* Ajusta o tamanho do GIF */
+        height: auto;
+    }
+
+    img.gif-slider {
+        border: 10px solid #120d0d08;
+        /* cor e espessura da moldura */
+        border-radius: 10px;
+        /* arredondar cantos, opcional */
+        padding: 5px;
+        /* espaço interno */
+    }
+
+    img.gif-slider {
+        border: 5px solid #000;
+        /* cor e espessura da moldura */
+        border-radius: 10px;
+        /* arredondar cantos, opcional */
+        padding: 5px;
+        /* espaço interno */
+    }
+
+}  
