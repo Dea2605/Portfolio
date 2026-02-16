@@ -4,11 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
     <title>Slider em baixo</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
-    <div class="pagina"> </div>
 
     <style>
         body {
@@ -48,22 +46,19 @@
             width: 180px;
             height: 120px;
         }
+
+        .banner-topo {
+            width: 100%;
+            height: auto; text-align: center; }
     </style>
-
-
-
-
-
-
 </head>
-
-</style>
-</head>
-
 <body>
-    <div class="banner-topo"></div>
-    <button onclick="toggleSlider()">Abrir painel</button>
+    <div class="pagina">
+     <div class="banner-topo">
+        <img src="bannerjudah.gif" alt="bannerjudar.gif">
 
+    </div>
+        
     <button onclick="openFullscreen()">Tela inteira</button>
 
     <script>
@@ -78,42 +73,29 @@
             }
         }
     </script>
-
-
-
-
-
-
-    <div class="banner-topo">
-        <img src="Portfolio/bannerjudah.gif" alt="bannerjudar.gif">
-
-    </div>
     <div class="area-videos">
         <div class="video-centro">
-            <iframe width="300" height="200" src="Portfolio/design24.mp4"></iframe>
+        <video src="design24.mp4" controls></video>
         </div>
         <div class="video-centro">
-            <iframe width="300" height="200" src="Portfolio/design26.mp4"></iframe>
+        <video src="design26.mp4" controls></video>
         </div>
         <div class="video-centro">
-            <iframe width="300" height="200" src="Portfolio/design25.mp4"></iframe>
+        <video src="design25.mp4" controls></video>
         </div>
-        <iframe width="300" height="200" src="Portfolio/design23.mp4"></iframe>
+        <div class="video-centro">
+        <video src="design23.mp4" controls></video>
+        </div>
+</div>
 
-
-    </div>
-
-    <div class="gif-container"> <img src="Portfolio/design16.gif"> </div>
+    <div class="gif-container"> <img src="design16.gif"> </div>
     <div class="slider especial">...</div>
 
 
-    <div class="gif-container"> <img src="Portfolio/imagem barber.gif"> </div>
+    <div class="gif-container"> <img src="imagem barber.gif"> </div>
 
-
-
-
-    <div class="video-centro">
-        <iframe width="1250" height="600" src="Portfolio/videodomeio.mp4"></iframe>
+     <div class="video-centro">
+        <video src="videodomeio.mp4" width="1250" height="600" controls></video>
     </div>
 
 
@@ -145,49 +127,28 @@
             </p>
 
 
-        </DIV>
+        </div>
         <p>"AGENDE SEU HORÁRIO E SINTA A DIFERENÇA
             DE UM CORTE BEM FEITO...".</P>
 
         <p> Me siga no Instagram: <a href="https://www.instagram.com/judah.barbershop"
                 target="_blank">@judah.barbershop</a>
         </p>
+        <div>
 
-
-
-
-
-        <DIV>
+        <div class="gif-container"> <img src="design3.gif" alt="Gif ilustrativo">
         </div>
-
-        <div class="gif-container"> <img src="Portfolio/design3.gif"> </div>
 
         <h2>BARBER.SHOP</h2>
 
 
 
-        <div class="galeria-final"> <img src="Portfolio/retrato1.jpg" alt="Imagem 1"> <img src="Portfolio/retrato2.jpg" alt="Imagem 2"> <img
-                src="Portfolio/retrato3.jpg" alt="IMAGEM 3"> </div>
-
-
-    </DIV>
-
-    </p>
-
+        <div class="galeria-final">
+            <img src="retrato1.jpg" alt="Imagem 1"> 
+            <img src="retrato2.jpg" alt="Imagem 2"> 
+            <img src="retrato3.jpg" alt="IMAGEM 3">
+            </div>
+         </div>
     </div>
-
-
-    <p>
-
-
-    </p>
-    </div>
-
-    <video .banner img { max-width: 100%; height: auto; display: block; margin: 0 auto; } /* Vídeos abaixo do banner */
-        .videos { display: flex; /* coloca os vídeos lado a lado */ justify-content: center; /* centraliza o grupo de
-        vídeos */ gap: 20px; /* espaço entre os vídeos */ margin-top: 20px; /* espaço entre banner e vídeos */ } .videos
-        video { width: 180px; /* largura reduzida */ height: 120px; /* altura reduzida */ } .banner-topo { width:
-        1920px; /* ocupa toda a largura */ height: 330%; /* altura do banner */ background-size: auto; /* ajusta para
-        cobrir toda a área */ background-position: center; } </style>
-
-        html
+</body>
+</html>
