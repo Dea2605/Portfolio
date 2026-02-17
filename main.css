@@ -14,19 +14,19 @@
  display: block;
 } 
 
-#video-centro { 
+.area-videos {
  display: flex;
  justify-content: center; 
- gap: 20px;
- flex-wrap: wrap; margin-top: 20px;
-} 
-#video-centro video { 
- width: 270px;
- height: auto;
+ gap: 20px; 
+ flex-wrap: wrap; 
+ margin-top: 20px;
+}
+
+
+.area-videos video {
  border: 3px solid #ffffff;
  border-radius: 8px; 
- box-shadow: 0 0 15px #ffffff, 0 0 25px #ffffff;
-}
+ box-shadow: 0 0 15px #ffffff, 0 0 25px #ffffff; }
 
 
 .gif-container {
