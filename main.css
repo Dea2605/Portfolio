@@ -31,6 +31,19 @@
  box-shadow: 0 0 15px #ffffff, 0 0 25px #ffffff;
 }
 
+.videos-banner {
+    display: flex; /* Ativa o modo linha/flexbox */
+    justify-content: space-around; /* Espaça os vídeos igualmente */
+    flex-wrap: wrap; /* Faz os vídeos irem para a linha de baixo se a tela for pequena */
+    gap: 15px; /* Cria um pequeno espaço entre os vídeos */
+    padding: 10px;
+}
+
+.videos-video {
+    width: 23%; /* Define que cada vídeo ocupa quase 1/4 da largura (4 vídeos * 23% = ~92%) */
+    height: auto; /* Mantém a proporção do vídeo */
+}
+
 
 .gif-container {
  display: flex;
