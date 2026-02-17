@@ -21,7 +21,7 @@
 }
 
 .videos-centro video {
- width: 30%; 
+ width: 50%; 
  height: auto; 
  border: 3px solid #ffffff; 
  border-radius: 8px; 
@@ -42,7 +42,7 @@
  width: 80%;
  height: 200px;
  background: #333;
- color: #fff; 
+ color: #ffffff; 
  display: flex; 
  justify-content: center;
  align-items: center; 
