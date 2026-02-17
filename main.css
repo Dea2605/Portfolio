@@ -14,47 +14,18 @@
  display: block;
 } 
 
-#video-centro video {
- width: 20%;
- height: auto; 
- max-width: 900px; 
-}
-
-#video-centro {
- display: flex; 
+#video-centro { 
+ display: flex;
  justify-content: center; 
- gap: 20px; 
- flex-wrap: wrap;
- margin-top: 20px; 
-}
-#video-centro video {
- width: 300px; 
- height: auto; 
- border: 2px solid white; 
-                                                                                                                                                                                                                                                                                             box-shadow: 0 0 15px white; /* efeito iluminado */ border-radius: 8px; /* cantos arredondados (opcional) */ }
-
-.video- video { 
- border: 3px solid #ffffff; 
- border-radius: 8px;
+ gap: 20px;
+ flex-wrap: wrap; margin-top: 20px;
+} 
+#video-centro video { 
+ width: 270px;
+ height: auto;
+ border: 3px solid #ffffff;
+ border-radius: 8px; 
  box-shadow: 0 0 15px #ffffff, 0 0 25px #ffffff;
-}
-
-.video-centro {
-    display: flex; /* Ativa o modo linha/flexbox */
-    justify-content: space-around; /* Espaça os vídeos igualmente */
-    flex-wrap: wrap; /* Faz os vídeos irem para a linha de baixo se a tela for pequena */
-    gap: 15px; /* Cria um pequeno espaço entre os vídeos */
-    padding: 10px;
-    border: 3px solid #ffffff; 
-    border-radius: 8px;
-    box-shadow: 0 0 15px #ffffff, 0 0 25px #ffffff;
-}
- 
-
-
-.videos-video {
-    width: 20%; /* Define que cada vídeo ocupa quase 1/4 da largura (4 vídeos * 23% = ~92%) */
-    height: 40px; /* Mantém a proporção do vídeo */
 }
 
 
