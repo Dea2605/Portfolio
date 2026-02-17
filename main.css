@@ -16,7 +16,7 @@
 
 .area-videos {
  display: flex;
- justify-content: center; 
+ justify-content: flex-start;
  gap: 20px; 
  flex-wrap: nowrap; 
  overflow-x: auto;
