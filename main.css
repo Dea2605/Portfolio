@@ -8,11 +8,14 @@
   width: 100%; 
   text-align: center;
  } 
-.banner-topo img {
+
+.banner {
  width: 100%; 
- height: 100px; 
+ height: auto;
  display: block;
-} 
+ object-fit: contain;
+}
+
 
 html, body { 
  margin: 0;
