@@ -14,14 +14,6 @@
  display: block;
 } 
 
-
-.video-banner { 
- display: flex; 
- justify-content: center;
- gap: 20px; 
- flex-wrap: wrap;
-  margin: 40px 0; } 
-
 .video- video { 
  border: 3px solid #ffffff; 
  border-radius: 8px;
