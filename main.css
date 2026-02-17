@@ -32,6 +32,20 @@ html, body {
         
 }
 
+.video-box { 
+ display: inline-block; 
+ border: 3px solid #ff0000;
+ border-radius: 8px;
+ box-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000;
+ animation: glow 2s infinite alternate; 
+ overflow: hidden; 
+ }
+.video-box video { 
+ width: 270px;
+ height: 270px; 
+ display: block;
+}
+
 @keyframes glow {
  from { 
  box-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000;
