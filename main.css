@@ -42,8 +42,8 @@ html, body {
 
 
 .video-box video { 
- width: 100px;
- height: 100px; 
+ width: 100%;
+ height: 80px; 
  display: block;
 }
 
