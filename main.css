@@ -33,13 +33,15 @@ html, body {
 }
 
 @keyframes glow {
- from { box-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000;
+ from { 
+ box-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000;
  border-color: #ff0000;
- } to {
+ }
+ to {
  box-shadow: 0 0 15px #00ffff, 0 0 25px #00ffff; 
  border-color: #00ffff;
 
-
+ }
 }
 
  
