@@ -90,19 +90,27 @@ text-shadow: 0 0 30px #0000ff;
 
 
 .video-centro video {
- width: 60%; 
- height: auto; 
+ width: 30%; 
+ height: 40%; 
  border: 3px solid #ffffff; 
  border-radius: 8px; 
  box-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000; 
+}
+
+.video-grande {
+ text-align: center; 
+ margin: 40px 0; 
 }
 
 .video-grande video { 
  width: 80%;
  max-width: 1250px; 
  height: auto; 
- display: block; 
+ display: incline-block; 
  margin: 40px auto;
+ border: 4px solid #ffffff;
+ border-radius: 10px;
+ box-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
 } 
 .galeria-final { 
  display: flex; 
