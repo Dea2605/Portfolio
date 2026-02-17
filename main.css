@@ -43,7 +43,7 @@ html, body {
 
 .video-box video { 
  width: 100px;
- height: auto; 
+ height: 100%; 
  display: block;
 }
 
