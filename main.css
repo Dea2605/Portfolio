@@ -21,6 +21,17 @@ html, body {
 }
 
 
+
+.area-videos { 
+ display: flex;
+ gap: 20px; 
+ flex-wrap: nowrap;
+ overflow-x: auto;
+ align-items: flex-start;
+}
+
+
+
 .video-box { 
  display: inline-block; 
  border: 3px solid #ff0000;
