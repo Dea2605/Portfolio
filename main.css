@@ -40,7 +40,7 @@
 
 
 .videos-video {
-    width: 33%; /* Define que cada vídeo ocupa quase 1/4 da largura (4 vídeos * 23% = ~92%) */
+    width: 20%; /* Define que cada vídeo ocupa quase 1/4 da largura (4 vídeos * 23% = ~92%) */
     height: 40px; /* Mantém a proporção do vídeo */
 }
 
