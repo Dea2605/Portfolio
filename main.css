@@ -19,13 +19,9 @@
  gap: 20px;
  margin: 40px 0;
 }
-.video-centro video {
- width: 30%; 
- height: auto;
-}
 
 .video-centro video {
- width: 25%; 
+ width: 30%; 
  height: auto; 
  border: 3px solid #ffffff; 
  border-radius: 8px; 
