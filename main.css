@@ -20,15 +20,6 @@ html, body {
  overflow-x: hidden; 
 }
 
-.area-videos { 
- display: flex; 
- gap: 20px; 
- flex-wrap: nowrap; 
- overflow-x: auto; 
- margin-top: 20px; 
- max-width: 100%;
-        
-}
 
 .video-box { 
  display: inline-block; 
