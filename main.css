@@ -20,6 +20,19 @@
  max-width: 900px; 
 }
 
+#video-centro {
+ display: flex; 
+ justify-content: center; 
+ gap: 20px; 
+ flex-wrap: wrap;
+ margin-top: 20px; 
+}
+#video-centro video {
+ width: 300px; 
+ height: auto; 
+ border: 2px solid white; 
+                                                                                                                                                                                                                                                                                             box-shadow: 0 0 15px white; /* efeito iluminado */ border-radius: 8px; /* cantos arredondados (opcional) */ }
+
 .video- video { 
  border: 3px solid #ffffff; 
  border-radius: 8px;
