@@ -15,23 +15,20 @@
 } 
 
 
-.videos-banner { 
+.video-banner { 
  display: flex; 
  justify-content: center;
  gap: 20px; 
  flex-wrap: wrap;
   margin: 40px 0; } 
 
-.videos-banner video { 
- flex: 1 1 300px;
- max-width: 350px
- height: auto;
+.video- video { 
  border: 3px solid #ffffff; 
  border-radius: 8px;
  box-shadow: 0 0 15px #ffffff, 0 0 25px #ffffff;
 }
 
-.videos-banner {
+.video-centro {
     display: flex; /* Ativa o modo linha/flexbox */
     justify-content: space-around; /* Espaça os vídeos igualmente */
     flex-wrap: wrap; /* Faz os vídeos irem para a linha de baixo se a tela for pequena */
