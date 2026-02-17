@@ -49,7 +49,7 @@ html, body {
  flex: 0 0 auto; 
  width: 270px;
  height: 270px;
- border: 3px solid #ffffff;
+ border: 3px solid #ff0000;
  border-radius: 8px;
  box-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000; 
  animation: glow 2s infinite alternate; 
