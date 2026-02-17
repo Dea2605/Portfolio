@@ -85,9 +85,7 @@ text-shadow: 0 0 30px #0000ff;
  padding: 40px 20px; 
  text-align: center;
 }
-.fundo-preto h2 { 
- margin-bottom: 20px;
-} 
+
 .complemento p {
  margin-bottom: 10px; } /* Vídeo grande */ 
 .video-centro video[width] { 
