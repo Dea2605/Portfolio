@@ -21,6 +21,11 @@
 }
 
 .video-centro video {
+ width: 28%; 
+ max-width: 320px;
+ height: auto; }
+
+.video-centro video {
  width: 20%; 
  height: auto; 
  border: 3px solid #ffffff; 
