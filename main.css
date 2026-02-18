@@ -36,7 +36,11 @@ html, body {
 gap: 20px; 
  flex-wrap: wrap;
  margin-top: 20px;
-} 
+ width: 100%; 
+ box-sizing: border-box; 
+}
+
+
 .video-box {
  flex: 0 0 auto;
  scroll-snap-align: start;
@@ -44,7 +48,8 @@ gap: 20px;
  border-radius: 8px;
  box-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000;
  animation: glow 2s infinite alternate; 
- overflow: hidden; width: 270px; 
+ overflow: hidden;
+ width: 270px; 
  height: 270px;
 } 
 
