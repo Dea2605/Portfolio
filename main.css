@@ -11,6 +11,11 @@ html, body {
  overflow-x: hidden; 
 }
 
+.area-videos { 
+ padding-left: 40px; 
+ padding-right: 40px;
+}
+
 
 .banner-topo { 
   width: 100%; 
