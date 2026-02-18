@@ -48,6 +48,12 @@ width: 100%;
  overflow: hidden;
 }
 
+.banner-topo video {
+ width: 100%; aspect-ratio: 16 / 9;
+ object-fit: cover;
+ display: block;
+}
+
 
 .banner {
  max-width: 1200px;
