@@ -19,26 +19,7 @@
  margin: 0 auto; } /* Tablets */
 
 /* Tablets (a partir de 768px) */
-@media (min-width: 768px) { 
-  .banner {
-    height: 280px;
-  }
-} 
 
-/* Desktops médios (a partir de 1024px) */
-@media (min-width: 1024px) {
-  .banner {
-    height: 350px;
-  } 
-}
-
-/* Desktops grandes (a partir de 1200px) */
-@media (min-width: 1200px) { 
-  .banner { 
-    height: 450px;
-    max-width: 1200px; 
-  }
-}
 
 html, body { 
  margin: 0;
@@ -46,7 +27,17 @@ html, body {
  overflow-x: hidden; 
 }
 
-
+@media (min-width: 768px) {
+ .banner { aspect-ratio: 21/9; }
+}
+@media (min-width: 1024px) {
+ .banner {
+  aspect-ratio: 3/1; } 
+}
+@media (min-width: 1200px) { 
+ .banner { 
+  aspect-ratio: 4/1; }
+}
 
 .area-videos { 
  display: flex;
