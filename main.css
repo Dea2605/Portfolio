@@ -22,10 +22,9 @@ html, body {
 
 
 .banner { 
- width: 100%;
+ width: auto;
  max-width: 1200px;
  height: auto;
- object-fit: cover; 
  display: block;
  margin: 0 auto; 
 } 
