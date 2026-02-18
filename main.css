@@ -114,6 +114,8 @@ width: 100%;
 }
 
 
+
+
 @media (max-width: 1024px) and (min-width: 601px) {
  .gif-container video {
  width: 90%;
@@ -171,13 +173,21 @@ width: 100%;
  width: 100%;
  max-width: 100%;
  }
+
+ @media (max-width: 600px) {
+  .fundo-preto { 
+  max-width: 90%;
+  margin: 0 auto; 
+  padding: 20px;
+  }
  
  .fundo-preto h2 {
   font-size: 2em;
  }
  
  .complemento p { 
-  font-size: 1em; 
+  font-size: 1em;
+  line-height: 1.4;
   } 
 }
 
