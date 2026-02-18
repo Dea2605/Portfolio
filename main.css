@@ -39,11 +39,6 @@ html, body {
  height: auto;
 }                                                                                                                     object-fit: cover; /* preenche sem distorcer */ display: block; margin: 0 auto; /* centraliza */ }
 
-@media (max-width: 768px) {
-  .banner-topo video {
-   aspect-ratio: 21 / 9;
-  }
-}
 
 
 .area-videos { 
