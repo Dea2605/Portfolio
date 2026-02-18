@@ -41,6 +41,12 @@ html, body {
  height: auto;
 }
 
+.banner img {
+ max-width: 100%; 
+ height: auto;
+ display: block; 
+}
+
 .area-videos { 
  display: flex; 
  gap: 20px; 
