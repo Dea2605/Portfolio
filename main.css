@@ -30,14 +30,24 @@ html, body {
  width: 100%;
  margin: 0; 
  padding: 0;
- overflow: hidden; 
- }
+ overflow: hidden;
+} 
 
-.banner-topo video { 
+.banner-topo video {
  width: 100%;
- max-width: 1200px; 
- height: auto;
-}                                                                                                                     object-fit: cover; /* preenche sem distorcer */ display: block; margin: 0 auto; /* centraliza */ }
+ max-width: 1200px;
+ max-height: 220px;
+ object-fit: cover; 
+ display: block; 
+ margin: 0 auto;
+}
+
+
+@media (max-width: 768px) { 
+ .banner-topo video { 
+  max-height: 160px; 
+ } 
+}
 
 
 
