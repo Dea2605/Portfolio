@@ -146,7 +146,7 @@ width: 100%;
 
 .fundo-preto h2 { 
  font-size: 4em; 
- color: #ff0000;
+ color: #000000;
  animation: pulsar 2s infinite alternate;
  margin: 20px 0;
 }
