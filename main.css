@@ -92,14 +92,15 @@ width: 100%;
 .gif-container {
  display: flex;
  justify-content: center;
+ align-items: center;
  margin: 20px 0;
 }
 
 
-.gif-container img { 
- max-width: 80%;
- height: auto;
-} 
+.gif-container { 
+ max-width: 100%;
+height: auto;
+}
 
   .slider {
    width: 100%; 
