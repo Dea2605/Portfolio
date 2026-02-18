@@ -26,22 +26,20 @@ html, body {
 }
 
 
-.banner-topo { 
-  width: 100%; 
-  text-align: center;
- margin-top: 0; 
+.banner-topo {
+ width: 100%;
+ display: flex;
+ justify-content: center; 
+ align-items: center;
+ margin-top: 0;
  padding: 20px 0;
+}
 
-} 
-
-
-.banner { 
- width: auto;
+.banner {
  max-width: 1200px;
+ width: 100%;
  height: auto;
- display: block;
- margin: 0 auto; 
-} 
+}
 
 .area-videos { 
  display: flex; 
