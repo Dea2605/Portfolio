@@ -5,6 +5,12 @@
  box-sizing: border-box; 
 } 
 
+html, body { 
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden; 
+}
+
 
 .banner-topo { 
   width: 100%; 
@@ -16,26 +22,20 @@
  aspect-ratio: 1536/448; 
  object-fit: cover; 
  display: block;
- margin: 0 auto; } /* Tablets */
+ margin: 0 auto; 
+} /* Tablets */
 
 /* Tablets (a partir de 768px) */
 
 
-html, body { 
- margin: 0;
- padding: 0;
- overflow-x: hidden; 
-}
-
 @media (min-width: 768px) {
- .banner { aspect-ratio: 21/9; }
+ .banner { max-height: 280px; }
 }
 @media (min-width: 1024px) {
- .banner {
-  aspect-ratio: 3/1; } 
-}
+ .banner { max-height: 350px; }
+} 
 @media (min-width: 1200px) { 
- .banner { 
+ .banner { max-height: 450px; }
   aspect-ratio: 4/1; }
 }
 
