@@ -45,6 +45,12 @@ html, body {
   }
 }
 
+.banner-topo {
+ width: 100%; 
+ text-align: center;
+} 
+
+
 
 .area-videos { 
  display: flex; 
@@ -102,6 +108,8 @@ width: 100%;
 height: auto;
 }
 
+
+
   .slider {
    width: 100%; 
    max-width: 100%; 
@@ -116,11 +124,6 @@ height: auto;
    overflow: hidden;
   }
 
-
-.banner-topo {
- width: 100%; 
- text-align: center;
-} 
 
 .fundo-preto h2 {
  font-size: 5em;
