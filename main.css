@@ -97,17 +97,15 @@ width: 100%;
 
 .gif-container {
  display: flex;
- justify-content: center;
- align-items: center;
- margin: 20px 0;
+ justify-content: center; 
+ margin: 20px 0; 
 }
 
 
-.gif-container { 
- max-width: 100%;
-height: auto;
+.gif-container video { 
+ max-width: 100%; 
+ height: auto; 
 }
-
 
 
   .slider {
