@@ -47,6 +47,13 @@ html, body {
  display: block; 
 }
 
+@media (max-width: 768px) {
+ .banner img {
+  max-width: 95%; 
+ }
+}
+
+
 .area-videos { 
  display: flex; 
  gap: 20px; 
