@@ -107,6 +107,18 @@ width: 100%;
  height: auto; 
 }
 
+.gif-container video {
+ max-width: 90%; 
+ height: auto; 
+ border-radius: 8px;
+} 
+@media (max-width: 600px) {
+ .gif-container video {
+  width: 300px;
+ height: auto;
+ }
+}
+
 
   .slider {
    width: 100%; 
