@@ -15,31 +15,20 @@ html, body {
 .banner-topo { 
   width: 100%; 
   text-align: center;
-  overflow: hidden;
+ margin-top: 0; 
+ padding: 20px 0;
+
 } 
 
 
 .banner { 
  width: 100%;
- aspect-ratio: 1536/448; 
+ max-width: 1200px;
+ height: auto;
  object-fit: cover; 
  display: block;
  margin: 0 auto; 
 } 
-
-
-@media (min-width: 768px) {
- .banner { max-height: 280px; }
-}
-
-@media (min-width: 1024px) {
- .banner { max-height: 350px; }
-} 
-
-@media (min-width: 1200px) { 
- .banner { max-height: 450px; }
-  
-}
 
 
 .area-videos { 
