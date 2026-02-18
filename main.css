@@ -64,7 +64,7 @@ width: 100%;
 
 @media (max-width: 768px) {
   .banner-topo video {
-    height: 200px; 
+   aspect-ratio: 21 / 9;
   }
 }
 
