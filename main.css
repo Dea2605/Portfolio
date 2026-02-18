@@ -131,40 +131,30 @@ width: 100%;
  }
 }
 
-
- .fundo-preto { 
-  background-color: #000000; 
-  color: #ffffff; 
-  width: 100%; 
-  max-width: 1000px;
-  padding: 40px auto;
-  text-align: center; 
-  box-sizing: border-box;
- } 
-
-
-
-.fundo-preto h2 { 
- font-size: 4em; 
- color: #ffffff;
- animation: pulsar 2s infinite alternate;
- margin: 20px 0;
-}
-
-@keyframes pulsar { 
- 0% { transform: scale(1); color: #ffffff; text-shadow: 0 0 10px #ffffff; }
- 50% { transform: scale(1.1); color: #ffffff; text-shadow: 0 0 20px #ffffff; } 
- 100% { transform: scale(1.2); color: #ffffff; text-shadow: 0 0 30px #ffffff; }
-}
-
-
-.complemento p {
- margin-bottom: 10px;
- font-size: 1.2em;
- line-height: 1.6;
- color: #ffffff;
+.fundo-preto {
+ background-color: #000000;
+ color: #ffffff; 
+ width: 100%;
+ max-width: 1000px;
+ padding: 40px auto;
+ text-align: center; 
+ box-sizing: border-box;
 } 
 
+.fundo-preto h2 { 
+ font-size: 4em; color: #ffffff;
+ animation: pulsar 2s infinite alternate;
+ margin: 20px 0; 
+}
+
+
+@keyframes pulsar {
+ 0% { transform: scale(1);color: #ffffff; text-shadow: 0 0 10px #ffffff; }
+ 50% { transform: scale(1.1); color: #ffffff; text-shadow: 0 0 20px #ffffff; }
+ 100% { transform: scale(1.2); color: #ffffff; text-shadow: 0 0 30px #ffffff }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ; } } .complemento p { margin-bottom: 10px;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           font-size: 1.2em; line-height: 1.6; color: #ffffff; /* garante que o complemento também fique branco */ }
+ 
 @media (max-width: 600px) { 
  .gif-container video, 
  .gif-container img {
