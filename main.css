@@ -37,13 +37,15 @@ html, body {
 
 .banner-topo video {
  width: 100%; 
- max-height: 200px; 
+ max-height: 220px; 
  object-fit: cover;
- display: block; 
+ display: block;
+ margin: 0 auto;
 }
 
 .banner-topo {
- width: 100%; 
+ width: 100%;
+ text-align: center;
  overflow: hidden;
 }
 
