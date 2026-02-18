@@ -34,7 +34,6 @@ html, body {
  width: 100%;
  max-width: 1200px;
  height: auto;
- object-fit: cover; 
  object-fit: contain;
  display: block; 
  margin: 0 auto;
