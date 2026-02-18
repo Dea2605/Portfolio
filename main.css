@@ -11,15 +11,12 @@
   text-align: center;
   overflow: hidden;
 } 
-
 .banner { 
-  width: 100%;
-  max-width: 1200px;   /* limite de largura */
-  height: 180px;       /* altura padrão em celulares */
-  object-fit: cover;   /* preenche sem distorcer */
-  display: block; 
-  margin: 0 auto;      /* centraliza */
-}
+ width: 100%;
+ aspect-ratio: 16/9; 
+ object-fit: cover; 
+ display: block;
+ margin: 0 auto; } /* Tablets */
 
 /* Tablets (a partir de 768px) */
 @media (min-width: 768px) { 
