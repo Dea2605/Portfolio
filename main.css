@@ -134,7 +134,7 @@ width: 100%;
 
  .fundo-preto { 
   background-color: #000000; 
-  color: #000000; 
+  color: #ffffff; 
   width: 100%; 
   max-width: 1000px;
   padding: 40px auto;
@@ -146,7 +146,7 @@ width: 100%;
 
 .fundo-preto h2 { 
  font-size: 4em; 
- color: #000000;
+ color: #ffffff;
  animation: pulsar 2s infinite alternate;
  margin: 20px 0;
 }
@@ -162,6 +162,7 @@ width: 100%;
  margin-bottom: 10px;
  font-size: 1.2em;
  line-height: 1.6;
+ color: #ffffff;
 } 
 
 @media (max-width: 600px) { 
