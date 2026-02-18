@@ -109,15 +109,10 @@ width: 100%;
  border-radius: 8px;
 }
 
-.gif-container video {
- width: 100%;
- max-width: 100%; 
- height: auto; 
- border-radius: 8px;
-} 
+
 @media (max-width: 600px) {
  .gif-container video {
-  width: 90px;
+  width: 100px;
  height: auto;
  }
 }
