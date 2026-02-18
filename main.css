@@ -17,27 +17,30 @@ html, body {
   text-align: center;
   overflow: hidden;
 } 
+
+
 .banner { 
  width: 100%;
  aspect-ratio: 1536/448; 
  object-fit: cover; 
  display: block;
  margin: 0 auto; 
-} /* Tablets */
-
-/* Tablets (a partir de 768px) */
+} 
 
 
 @media (min-width: 768px) {
  .banner { max-height: 280px; }
 }
+
 @media (min-width: 1024px) {
  .banner { max-height: 350px; }
 } 
+
 @media (min-width: 1200px) { 
  .banner { max-height: 450px; }
   aspect-ratio: 4/1; }
 }
+
 
 .area-videos { 
  display: flex;
