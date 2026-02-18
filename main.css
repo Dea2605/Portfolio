@@ -33,19 +33,18 @@ html, body {
 .banner-topo video {
  width: 100%;
  max-width: 1200px;
- max-height: 220px;
+ height: auto;
  object-fit: cover; 
+ object-fit: contain;
  display: block; 
  margin: 0 auto;
 }
 
-
 @media (max-width: 768px) { 
- .banner-topo video { 
-  max-height: 160px; 
- } 
+ .banner-topo video {
+  object-fit: cover;  max-height: 180px;
+  }
 }
-
 
 
 .area-videos { 
