@@ -107,10 +107,10 @@ width: 100%;
 .gif-container video,
 .gif-container img {
  width: 100%;
- max-width: 800px;
+ max-width: 600px;
  height: auto;
  border-radius: 8px;
-
+ align-items: center;
 }
 
 
@@ -134,7 +134,7 @@ width: 100%;
 
  .fundo-preto { 
   background-color: #ff0000; 
-  color: #fff; 
+  color: #ff0000; 
   width: 100%; 
   max-width: 1000px;
   padding: 40px auto;
