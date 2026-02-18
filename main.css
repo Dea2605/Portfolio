@@ -103,12 +103,12 @@ width: 100%;
 
 
 .gif-container video { 
- max-width: 100%; 
+ max-width: 300%; 
  height: auto; 
 }
 
 .gif-container video {
- max-width: 100%; 
+ max-width: 300%; 
  height: auto; 
  border-radius: 8px;
 } 
