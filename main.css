@@ -167,13 +167,6 @@ width: 100%;
   color: #ffffff;
  }
  
-@media (max-width: 600px) { 
- .gif-container video, 
- .gif-container img {
- width: 100%;
- max-width: 100%;
- }
-
  @media (max-width: 600px) {
   .fundo-preto { 
   max-width: 90%;
@@ -199,6 +192,12 @@ width: 100%;
   padding: 0 15px; 
  }
 
+@media (max-width: 600px) { 
+ .gif-container video, 
+ .gif-container img {
+ width: 100%;
+ max-width: 100%;
+ }
 
 
 .video-grande {
