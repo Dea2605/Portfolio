@@ -200,6 +200,13 @@ width: 100%;
  }
 
 
+ .gif3-container video { 
+  width: 100%; 
+  height: auto;
+  display: block;
+ }
+
+
 .video-grande {
  text-align: center; 
  margin: 40px 0; 
